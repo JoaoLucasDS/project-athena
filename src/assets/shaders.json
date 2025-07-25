@@ -1,0 +1,58 @@
+{
+  "categories": [
+    {
+      "name": "CRT",
+      "shaders": [
+        { "name": "crt-royale", "file": "crt/crt-royale" },
+        { "name": "crt-aperture", "file": "crt/crt-aperture" },
+        { "name": "crt-geom", "file": "crt/crt-geom" },
+        { "name": "crt-lottes", "file": "crt/crt-lottes" },
+        { "name": "zfast-crt", "file": "crt/zfast-crt" },
+        { "name": "crt-easymode", "file": "crt/crt-easymode" },
+        { "name": "crt-pi", "file": "crt/crt-pi" },
+        { "name": "newpixie-crt", "file": "crt/newpixie-crt" }
+      ]
+    },
+    {
+      "name": "Handheld",
+      "shaders": [
+        { "name": "gameboy", "file": "handheld/gameboy" },
+        { "name": "lcd-grid-v2", "file": "handheld/lcd-grid-v2" },
+        { "name": "lcd3x", "file": "handheld/lcd3x" }
+      ]
+    },
+    {
+      "name": "NTSC",
+      "shaders": [
+        { "name": "ntsc-320px-svideo", "file": "ntsc/ntsc-320px-svideo" },
+        { "name": "ntsc-composite", "file": "ntsc/ntsc-composite" }
+      ]
+    },
+    {
+      "name": "Scaling",
+      "shaders": [
+        { "name": "xbr-lv3", "file": "xbr/xbr-lv3" },
+        { "name": "sabr-v3.0", "file": "sabr/sabr-v3.0" },
+        { "name": "6xbrz-linear", "file": "xbrz/6xbrz-linear" }
+      ]
+    },
+    {
+      "name": "Artistic",
+      "shaders": [
+        { "name": "advcartoon", "file": "cel/advcartoon" },
+        { "name": "motionblur", "file": "motionblur/motionblur" }
+      ]
+    },
+    {
+      "name": "Bezel",
+      "shaders": [{ "name": "bezel-basic", "file": "bezel/bezel-basic" }]
+    },
+    {
+      "name": "Presets",
+      "shaders": [
+        { "name": "crt-royale-ntsc-svideo", "file": "presets/crt-royale-ntsc-svideo" },
+        { "name": "c64-monitor", "file": "presets/c64-monitor" }
+      ]
+    }
+  ]
+}
